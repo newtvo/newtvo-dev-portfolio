@@ -1,6 +1,6 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
@@ -9,7 +9,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    "siteTitle": "Nhut Vo",
+    "siteTitleAlt": "Nhut Vo - Portfolio",
+    "siteHeadline": "Nhut Vo - Full Stack Developer- Portfolio",
+    "siteUrl": "https://syedsportfolio.vercel.app",
+    "siteDescription": "Full Stack Developer Based in Montreal, Quebec. \nTechnical Stack: MEAN, MERN, mySQL, & Python.",
+    "siteLanguage": "en",
+    "siteImage": "/banner.jpg",
+    "author": "Nhut Vo"
   },
   plugins: [
     {
@@ -26,9 +33,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Syed Salman - Portfolio`,
+        short_name: `Syed Salman`,
+        description: `Full Stack Developer Based in Chennai, India. \nTechnical Stack: MEAN, MERN, mySQL, & Python.`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
